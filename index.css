@@ -1,3 +1,14 @@
 html {
     scroll-behavior: smooth;
+    
   }
+
+  #wrap { position: relative; }
+#back, #front { position: absolute; width: 100%; }
+#back { z-index: 1; } #front { z-index: 2; }
+
+.h123{
+  width: 100%;
+  height: auto;
+}
+ 
